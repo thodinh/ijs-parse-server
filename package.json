@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/thodinh/ijs-parse-server#readme",
   "dependencies": {
+    "apollo-server-express": ">=2.14.2",
     "express": "^4.17.1",
-    "parse-server": "^4.2.0",
-    "apollo-server-express": ">=2.14.2"
+    "ijs-server": "^1.0.1",
+    "parse-server": "^4.2.0"
   }
 }
