@@ -1,0 +1,27 @@
+{
+  "name": "ijs-parse-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thodinh/ijs-parse-server.git"
+  },
+  "keywords": [
+    "ijs",
+    "parse-server"
+  ],
+  "author": "thodinh@innoria.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thodinh/ijs-parse-server/issues"
+  },
+  "homepage": "https://github.com/thodinh/ijs-parse-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parse-server": "^4.2.0"
+  }
+}
