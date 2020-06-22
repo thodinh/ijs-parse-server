@@ -7,12 +7,13 @@ module.exports = class IJSParseServer extends Component {
         super();
         this.$_name = 'IJSParseServer'
         this.defaultConfig = {
-            database_uri: 'mongodb://localhost/dev',
+            database_uri: 'postgres://test:Innoria%40123@172.16.1.120:30931/clinic',
             app_id: 'myAppId',
             master_key: 'myMasterKey',
             server_url: 'http://localhost:1337/parse',
             mount_path: '/parse',
-            port: 1337
+            port: 1337,
+            cloud_path: './cloud.js'
         }
         this.ready = false
     }
@@ -23,7 +24,8 @@ module.exports = class IJSParseServer extends Component {
             databaseURI: this.config.get('database_uri'),
             appId: this.config.get('app_id'),
             masterKey: this.config.get('master_key'),
-            serverURL: this.config.get('server_url')
+            serverURL: this.config.get('server_url'),
+            cloud: this.config.get('cloud_path'),
         });
 
         // Serve the Parse API on the /parse URL prefix
