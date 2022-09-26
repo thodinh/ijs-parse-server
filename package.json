@@ -24,6 +24,6 @@
     "apollo-server-express": ">=2.14.2",
     "express": "^4.17.1",
     "ijs-server": "^1.0.1",
-    "parse-server": "^4.2.0"
+    "parse-server": "^5.2.7"
   }
 }
